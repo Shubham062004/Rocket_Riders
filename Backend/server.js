@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require("dotenv").config();
 const port = process.env.PUBLIC_PORT || 1043;
+const Bike = require("./bikeInfo.json");
 
 const app = express();
 const {ConnectToDB} = require("./database")
@@ -21,15 +22,18 @@ ConnectToDB().then((mongoConnection) => {
         });
 
         // Get all bikes
-        app.get("/bikes", async (req, res) => {
-            try {
-                const bikes = await Bike.find();
-                res.json(bikes);
-            } catch (error) {
-                console.error("Error fetching bikes:", error);
-                res.status(500).json({ error: "Internal server error" });
-            }
-        });
+        // app.get("/bikes", async (req, res) => {
+        //     try {
+        //         const bikes = Bike.find();
+        //         res.json(bikes);
+        //     } catch (error) {
+        //         console.error("Error fetching bikes:", error);
+        //         res.status(500).json({ error: "Internal server error" });
+        //     }
+        // });
+        app.get('/api/bikes', (req,res) => {
+            return res.json(Bike)
+        })
 
         // Get a single bike
         app.get("/bikes/:id", async (req, res) => {
