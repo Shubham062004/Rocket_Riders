@@ -1,0 +1,212 @@
+[
+    {
+      "bikeName": "Yamaha YZF-R1",
+      "price": 17399,
+      "engine": 998,
+      "power": 200,
+      "torque": 112.4,
+      "mileage": 15,
+      "kerbWeight": 200,
+      "color": "Blue",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Kawasaki Ninja ZX-10R",
+      "price": 16399,
+      "engine": 998,
+      "power": 203,
+      "torque": 115.7,
+      "mileage": 14,
+      "kerbWeight": 206,
+      "color": "Green",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Ducati Panigale V4",
+      "price": 21195,
+      "engine": 1103,
+      "power": 214,
+      "torque": 124,
+      "mileage": 13,
+      "kerbWeight": 195,
+      "color": "Red",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Suzuki GSX-R1000",
+      "price": 15599,
+      "engine": 999,
+      "power": 202,
+      "torque": 117.6,
+      "mileage": 16,
+      "kerbWeight": 203,
+      "color": "Black",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "BMW S1000RR",
+      "price": 16995,
+      "engine": 999,
+      "power": 207,
+      "torque": 113,
+      "mileage": 15,
+      "kerbWeight": 197,
+      "color": "White",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Honda CBR1000RR-R Fireblade",
+      "price": 28500,
+      "engine": 999,
+      "power": 214,
+      "torque": 113,
+      "mileage": 15,
+      "kerbWeight": 201,
+      "color": "Red",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Aprilia RSV4 RF",
+      "price": 22999,
+      "engine": 1078,
+      "power": 201,
+      "torque": 115,
+      "mileage": 14,
+      "kerbWeight": 199,
+      "color": "Black",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "MV Agusta F4 RR",
+      "price": 27498,
+      "engine": 998,
+      "power": 201,
+      "torque": 115,
+      "mileage": 12,
+      "kerbWeight": 191,
+      "color": "White",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Yamaha YZF-R6",
+      "price": 12199,
+      "engine": 599,
+      "power": 117,
+      "torque": 61.7,
+      "mileage": 18,
+      "kerbWeight": 190,
+      "color": "Blue",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Kawasaki Ninja ZX-6R",
+      "price": 9999,
+      "engine": 636,
+      "power": 130,
+      "torque": 70.8,
+      "mileage": 20,
+      "kerbWeight": 196,
+      "color": "Green",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Ducati 1299 Panigale R Final Edition",
+      "price": 39900,
+      "engine": 1285,
+      "power": 209,
+      "torque": 142,
+      "mileage": 10,
+      "kerbWeight": 190,
+      "color": "Red",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Suzuki GSX-R600",
+      "price": 11399,
+      "engine": 599,
+      "power": 125,
+      "torque": 67.7,
+      "mileage": 21,
+      "kerbWeight": 187,
+      "color": "Black",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "BMW HP4 Race",
+      "price": 78000,
+      "engine": 999,
+      "power": 215,
+      "torque": 120,
+      "mileage": 8,
+      "kerbWeight": 171,
+      "color": "Carbon Fiber",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Honda CBR600RR",
+      "price": 11799,
+      "engine": 599,
+      "power": 120,
+      "torque": 66,
+      "mileage": 20,
+      "kerbWeight": 186,
+      "color": "Red",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Yamaha YZF-R3",
+      "price": 4999,
+      "engine": 321,
+      "power": 42,
+      "torque": 29.6,
+      "mileage": 25,
+      "kerbWeight": 169,
+      "color": "Blue",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Kawasaki Ninja 400",
+      "price": 4999,
+      "engine": 399,
+      "power": 49,
+      "torque": 38,
+      "mileage": 27,
+      "kerbWeight": 167,
+      "color": "Green",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Ducati SuperSport",
+      "price": 13295,
+      "engine": 937,
+      "power": 110,
+      "torque": 93,
+      "mileage": 18,
+      "kerbWeight": 184,
+      "color": "Red",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "Suzuki Hayabusa",
+      "price": 14799,
+      "engine": 1340,
+      "power": 197,
+      "torque": 155,
+      "mileage": 15,
+      "kerbWeight": 266,
+      "color": "Black",
+      "image": "Image URL"
+    },
+    {
+      "bikeName": "BMW S1000XR",
+      "price": 16995,
+      "engine": 999,
+      "power": 165,
+      "torque": 114,
+      "mileage": 20,
+      "kerbWeight": 226,
+      "color": "Blue",
+      "image": "Image URL"
+    }
+  ]
+  

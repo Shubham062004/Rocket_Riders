@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*  <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900
+
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navContainer{
+  background-color: #757575;
+  font-size: 23px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMiddle{
+  display: flex;
+}
+
+.navMiddle div, .navLogin div, .navLogo img{
+  padding: 30px;
+}
+
+
+/* Home Page */
+.homebody{
+  text-align: center;
+}
+
+.homebody h1{
+  margin: 0;
+  position: absolute;
+  top: 135px;
+  z-index: -1;
+  font-size: 110px;
+  right: 195px;
+}
+
+.homebody img{
+  /* position: absolute; */
+  position: relative;
+  top: 80px;
+  /* z-index: 1; */
+}
+
+
+
+/* Style home page */
+
+
+/* search bar */
+.searchbar .input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+}
+
+.search_wrap{
+	width: 500px;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 450px;
+	height: 60px;
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 85%;
+	height: 70%;
+	font-size: 18px;
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0;
+  left: 398px;
+	width: 45px;
+	height: 73%;
+	background: #7690da;
+	z-index: 1;
+	cursor: pointer;
+}
+
+/* .search_wrap .search_box .btn:hover{
+	background: #708bd2;	
+} */
+
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+
+.search_wrap.search_wrap_3 .search_box .input{
+  padding-right: 40px;
+  padding-left: 20px;
+	border-radius: 50px;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn{
+	right: 0px;
+	border-radius: 50%;
+}
+
+.fa-search img{
+  height: 20px;
+}
